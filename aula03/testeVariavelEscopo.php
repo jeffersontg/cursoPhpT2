@@ -20,8 +20,11 @@ function testeDeFuncaoParametro( $parametroDaFuncao ){
 }
 
 
-testeDeFuncao();
+  
+testeDeFuncao(); 
 testeDeFuncaoParametro('Conteudo de Teste');
+
+
 
 echo "<br>";
 echo "O conteúdo da variavelGlobal é $variavelGlobal <br>";

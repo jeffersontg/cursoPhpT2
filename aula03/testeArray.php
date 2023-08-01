@@ -1,11 +1,13 @@
 <?php
 
-$arrayTeste = [1,2,3,4,5,6];
+$arrayTeste = [ 'nome' => 1, 2,3,4,5,6];
 
 echo "Array simples: <br>";
 
 
 
+echo "Item: " . $arrayTeste['nome'] . '<br>' ;
+echo "<br>";
 echo "Item: $arrayTeste[0] " ;
 echo "<br>";
 echo "Item: $arrayTeste[1] " ;
@@ -15,8 +17,6 @@ echo "<br>";
 echo "Item: $arrayTeste[3] " ;
 echo "<br>";
 echo "Item: $arrayTeste[4] " ;
-echo "<br>";
-echo "Item: $arrayTeste[5] " ;
 echo "<br>";
 
 echo "Array associativo: <br>";
