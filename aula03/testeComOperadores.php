@@ -29,12 +29,18 @@ echo '<br>';
 echo 'O resultado da operação $variavel2 / $variavel3 é: <br>';
 echo $variavel2 / $variavel3;
 
-// teste para resultado com número tipo float
-echo '<br>';
-echo 'O resultado da operação $variavel1 + $variavel2 é: <br>';
-echo $variavel1 + $variavel2;
-
 // ( 2 * 8 ) / 4 
 
+echo '<br>';
+echo 'O resultado da operação ( 2 * 8 ) / 4  é: <br>';
+echo ( 2 * 8 ) / 4 ;
+
+echo '<br>';
+echo 'O resultado da operação ( 2 + 8 ) / 4  é: <br>';
+echo ( 2 + 8 ) / 4 ;
+
+echo '<br>';
+echo 'O resultado da operação  2 + 8  / 4  é: <br>';
+echo  2 + 8  / 4 ;
 
 ?>
