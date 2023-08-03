@@ -52,4 +52,18 @@
         echo "Nem passou no primeiro if...<br>";
     }
 
+    // teste com ELSEIF
+
+    $string = 'Professora';
+
+    if ($string == 'PROFESSOR') {
+
+        echo "A string testada deu certo!!";
+    } elseif ($string == 'Professor' ) {
+        echo "A string testada agora deu certo nesse teste do elseif !!";
+    } else {
+        echo 'Nada deu certo...';
+    }
+
+
 ?>
