@@ -8,10 +8,26 @@
 <body>
     
     <?php
-        include "html/cabecalho.html";
+        require "html/cabecalho.html";
     ?>
 
-    
+    <h2> Exemplo de Table </h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Parentesco</th>
+        </tr>
+        <tr>
+            <td>Seu Madruga</td>
+            <td>Pai</td>
+        </tr>
+        <tr>
+            <td>Chiquinha</td>
+            <td>Filha</td>
+        </tr>
+    </table>
+
+
 
 
 </body>
