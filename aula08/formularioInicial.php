@@ -7,8 +7,8 @@
 </head>
 <body>
     <?php
-        $nome = 'Não informado';
-        $sobrenome = 'Não informado';
+        $nome = '';
+        $sobrenome = '';
         if (isset($_POST['nome'])) {
             $nome = $_POST['nome'];
         }
@@ -27,7 +27,7 @@
         <label for="nome">Nome:</label>
         <input type='text' id='nome' name='nome' value='Jefferson' /><br>
         <label for="sobrenome">Sobrenome:</label>
-        <input type='text' id='sobrenome' name='sobrenome' value='Teixeira' /><br>
+        <input type='text' id='sobrenome' name='sobrenome' value='' /><br>
         <input type='submit' name='enviar' value='Enviar' /><br>
     </form>    
 </body>
