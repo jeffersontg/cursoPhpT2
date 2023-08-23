@@ -20,4 +20,8 @@
     $variavel2 = retornaSoma(4,8);
     echo "<br>";
     echo "o retorno da função foi $variavel2";
+
+    echo "<br>";
+    $variavel3 = retornoMultiplo(1, 2, 3);
+    print_r($variavel3);
 ?>

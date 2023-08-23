@@ -23,7 +23,7 @@
     <h1>Sobrenome: <?= $sobrenome ?></h1>
 
     <h2>Formulario:</h2>
-    <form action='formularioInicial.php' method='GET'>
+    <form action='formularioInicial.php' method='POST'>
         <label for="nome">Nome:</label>
         <input type='text' id='nome' name='nome' value='Jefferson' /><br>
         <label for="sobrenome">Sobrenome:</label>

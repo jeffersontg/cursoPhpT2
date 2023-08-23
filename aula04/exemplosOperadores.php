@@ -1,7 +1,7 @@
 <?php
    $variavel1 = '2.5';
    // operador de incremento
-   $variavel1 = $variavel1 + 1;
+   $variavel1++;
 
    // operador de decremento
    $variavel1--;
@@ -21,6 +21,7 @@
    
    echo '<br>';
    $variavel2 += 2;
+  
    echo 'O numero agora é: ' ;
    echo $variavel2 ;
 
@@ -29,5 +30,7 @@
    echo 'O numero agora é: ' ;
    echo $variavel2 ;
 
-
+   if ($variavel1 <= $variavel2){
+      echo 'teste passou!';
+   }
 ?>

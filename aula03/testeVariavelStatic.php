@@ -14,7 +14,7 @@ testeDeEscopo();
 testeDeEscopo();
 testeDeEscopo();
 
-function testeDeEscopoStatic( $parametro ){
+function testeDeEscopoStatic( ){
     static $variavelStatic = 0;
     $variavelStatic = $variavelStatic + 1;
     echo "Mostrando variável local static: <br>";
